@@ -21,6 +21,7 @@ class Character:
     def status(self):
         # Return a string describing the character's current status
         return f"{self.name} has {self.health} health and {self.power} power."
+    
 
 # Hero class, inherits from Character
 class Hero(Character):
@@ -30,7 +31,7 @@ class Hero(Character):
 
     def flee(self):
         # Allow the hero to flee from battle
-        print("You flee from the battle. Goodbye!")
+        print("You flee from the battle. Make haste!")
         return True
 
 # Goblin class, inherits from Character
